@@ -49,14 +49,14 @@
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
-// Console.Clear();
-// int[] array = new int[8];
-// Random rand = new Random();
-// Console.Write("[");
-// for (int i = 0; i < array.Length; i++)
-// {
-//     array[i] = rand.Next(0, 40);
-//     Console.Write(array[i]);
-//     Console.Write(", ");
-// }
-// Console.Write("]");
+Console.Clear();
+int[] array = new int[8];
+Random rand = new Random();
+Console.Write("[");
+for (int i = 0; i < array.Length; i++)
+{
+    array[i] = rand.Next(0, 40);
+    Console.Write(array[i]);
+    Console.Write(", ");
+}
+Console.Write("]");
